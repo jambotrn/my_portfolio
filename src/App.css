@@ -1,0 +1,192 @@
+
+
+body{
+  background-color: #282c34;
+  color: #8892b0;
+  margin: 0px 0px;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+  font-family:'Source Code Pro', monospace;
+  color: #69d6f4;
+  padding-left: 5rem;
+}
+
+.no-bullets{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.gater-than{
+  font-size: 10px;
+  color: #69d6f4;
+}
+.highlight{
+  /* color: #4c5567;  */
+  font-weight: 600;
+
+}
+
+/* About  */
+
+.about-me{
+  margin: 40px; 
+  font-family: 'Source Code Pro', monospace;
+}
+.profile-img{
+  height: 250px;
+  width: 150px
+}
+.about-cont{
+  margin: 150px auto;
+}
+.about-img{
+  height: 350px ;
+   width: 300px
+}
+.about-col{
+  margin: 100px 0px;
+}
+.about-col h5{
+  font-family: 'Source Code Pro', monospace; 
+  color: #69d6f4;
+}
+.about-col h1{
+  font-family: 'Source Code Pro', monospace;
+  color: #b4dd7f;
+  font-size: 6vw;
+}
+
+/* skill */
+.skill-row{
+ margin: 40px 40px 0px; 
+ font-family: 'Source Code Pro', monospace;
+}
+.skill-row h5{
+  color:#69d6f4
+}
+.skill-row h6{
+  color: aqua;
+}
+.col-mar{
+  margin:20px
+}
+
+/* work */
+
+.work-cont{
+  margin:150px auto; 
+  background: url("/public/pexels-markus-spiske-965345.jpg") no-repeat bottom;
+  background-size:  cover;
+}
+.work-r{
+  background-color:rgba(1, 2, 6, 0.9); 
+  padding: 40px 80px;
+}
+.work-div{
+width: 345px;
+padding: 0px;
+margin: 15px;
+background-color: #141f2b;
+}
+.work-card{
+background-color: black;
+}
+.work-card img{
+opacity: .3;
+height: 300px;
+}
+
+.work-card img:hover {
+opacity: .7;
+}
+
+/* contact */
+
+.contact {
+margin-top: 20px;
+margin-left: 20px;
+}
+.contact-cont{
+  background: url(/public/sk-amirul-contact.jpg) no-repeat bottom;
+  background-size:  cover;
+}
+.contact-r{
+  background-color:rgba(0, 0, 0, 0.9);
+   padding: 40px;
+   font-family:'Source Code Pro', monospace;
+}
+.socioal-icon ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.socioal-icon li {
+float: left;
+margin: 15px 20px;
+}
+.email a {
+display: block;
+color: white;
+text-decoration: none;
+}
+.socioal-icon li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.navbar-brand{
+margin-left: 80px;
+}
+.nav-tab{
+margin-right: 80px;
+}
+.heading {
+margin-bottom: 50px;
+color: #69d6f4
+}
+.heading-span {
+color: #b4dd7f;
+font-weight: 550
+}
+.bottom-speace{
+margin-bottom: 100px;
+}
+.contact-heading{
+margin-bottom: 20px;
+color: aqua
+}
+
+.socioal-icon .btn{
+  font-size: 1.5rem;
+  line-height: 1rem;
+}
+.github{
+  background-color: #333333
+}
+.linkedin{
+  background-color: #0082ca;
+}
+.twitter{
+  background-color: #55acee;
+}
+.contact-r h2{
+  text-align: center;
+  color: #b4dd7f; 
+  margin-bottom: 50px;
+}
+/* footer */
+
+.footer{
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+}
+.footer p:hover{
+  color:#b4dd7f;
+}

@@ -1,0 +1,94 @@
+
+body{
+    background-color: #282c34;
+    color: #57637e;
+    margin: 0px 0px;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    font-family:'Source Code Pro', monospace;
+    color: #69d6f4;
+    padding-left: 5rem;
+  }
+
+.no-bullets{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .gater-than{
+    font-size: 10px;
+    color: #69d6f4;
+  }
+.highlight{
+    color: #4e5c7c;;
+    font-weight: 600;
+
+}
+.work-div{
+  width: 345px;
+  padding: 0px;
+  margin: 15px;
+  background-color: #141f2b;
+}
+.work-card{
+  background-color: black;
+}
+.work-card img{
+  opacity: .3;
+  height: 300px;
+}
+
+.work-card img:hover {
+  opacity: .7;
+}
+
+.contact {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+ .socioal-icon ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.socioal-icon li {
+  float: left;
+  margin: 15px 20px;
+}
+ .email a {
+  display: block;
+  color: white;
+  text-decoration: none;
+ }
+.socioal-icon li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar-brand{
+  margin-left: 80px;
+}
+.nav-tab{
+margin-right: 80px;
+}
+.heading {
+  margin-bottom: 50px;
+  color: #69d6f4
+}
+.heading-span {
+  color: #b4dd7f;
+  font-weight: 550
+}
+.bottom-speace{
+  margin-bottom: 100px;
+}
+.contact-heading{
+  margin-bottom: 20px;
+  color: aqua
+}

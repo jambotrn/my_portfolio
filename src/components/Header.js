@@ -23,7 +23,7 @@ function  Header(){
               <a className="nav-link" href="#" >Blog</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" href="#" >Disabled</a>
+              <a className="nav-link disabled" href="#" ></a>
             </li>
           </ul>
           </div>

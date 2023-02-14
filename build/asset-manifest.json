@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88067833.css",
+    "main.js": "/static/js/main.97f7d7e7.js",
+    "static/js/787.8b112d49.chunk.js": "/static/js/787.8b112d49.chunk.js",
+    "static/media/pexels-markus-spiske-965345.jpg": "/static/media/pexels-markus-spiske-965345.4ffb604a9127e9096888.jpg",
+    "static/media/sk-amirul-contact.jpg": "/static/media/sk-amirul-contact.d8b74c62d3b62ed438b2.jpg",
+    "index.html": "/index.html",
+    "main.88067833.css.map": "/static/css/main.88067833.css.map",
+    "main.97f7d7e7.js.map": "/static/js/main.97f7d7e7.js.map",
+    "787.8b112d49.chunk.js.map": "/static/js/787.8b112d49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88067833.css",
+    "static/js/main.97f7d7e7.js"
+  ]
+}

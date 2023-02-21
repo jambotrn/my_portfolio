@@ -10,7 +10,7 @@ function About(){
         <div className="col-sm-1">
         </div>
         <div className="col-sm-6 about-col">
-          <h5>Hi There! Hope you are doing well. I am </h5>
+          <h5>Hi There! Hope you are doing well. I'm </h5>
           <h1>SK AMIRUL</h1>
           <h5>
           I'm a passionate full Stack Web Developer

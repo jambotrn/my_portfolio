@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter, FaLinkedin  } from "react-icons/fa";
 
 function Contact(){
     return(
-        <div className="container-fluid contact-cont" >
+        <div className="container-fluid contact-cont"  id="contact-to-skamirul">
             <div className="row contact-r" >
             <h2 >Get in Touch</h2>
             <div className="col-sm-4 contact" >

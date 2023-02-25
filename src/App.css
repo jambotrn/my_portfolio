@@ -6,7 +6,9 @@ body{
   margin: 0px 0px;
 }
 
-
+.sticky-top{
+  background-color: #141f2b;
+}
 .navbar-nav .nav-item .nav-link {
   font-family:'Source Code Pro', monospace;
   color: #69d6f4;

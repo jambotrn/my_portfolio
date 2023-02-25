@@ -1,7 +1,19 @@
+import { useState } from "react";
 
 function  Header(){
+const [scroll, setScroll]= useState(false);
+
+const chHeader = ()=>{
+ if(window.scrollY > 100){
+  setScroll(true)
+ }else{
+  setScroll(false)
+ }
+}
+window.addEventListener("scroll",chHeader);
+
     return(
-        <nav className="navbar navbar-expand-sm navbar-dark">
+        <nav className={scroll ? 'navbar navbar-expand-sm sticky-top' : 'navbar navbar-expand-sm '} >
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src="/skamirul-webdeveloper.png" alt="Avatar Logo" 
@@ -11,13 +23,13 @@ function  Header(){
         <div className="container nav-tab" >
           <ul className="navbar-nav" >
             <li className="nav-item" >
-              <a className="nav-link " href="#about">About</a>
+              <a className="nav-link " href="#about-skamirul">About</a>
             </li>
            <li className="nav-item">
-              <a className="nav-link" href="#" >Work</a>
+              <a className="nav-link" href="#letest-work-of-skamirul" >Work</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" >Contact</a>
+              <a className="nav-link" href="#contact-to-skamirul" >Contact</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#" >Blog</a>

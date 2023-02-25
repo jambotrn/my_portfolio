@@ -20,7 +20,7 @@ function About(){
     </div>
 
 
-<div id="about" className="container bottom-speace" >
+<div id="about-skamirul" className="container bottom-speace" >
   <h4 className="heading">   &#10094;  &nbsp; <span className="heading-span">About Me </span> &nbsp; &#10095; </h4>
   <div className="row " >
     <div className="col-sm-6 about-me" >

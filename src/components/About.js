@@ -13,7 +13,7 @@ function About(){
           <h5>Hi There! Hope you are doing well. I'm </h5>
           <h1>SK AMIRUL</h1>
           <h5>
-          I'm a passionate full Stack Web Developer
+          A passionate full Stack Web Developer.<br></br>Convert Business Needs Into Technical Specifications.
           </h5>
         </div>
       </div>
@@ -28,6 +28,7 @@ function About(){
         I have worked with startup and established businesses. 
         These help me to get understand my clientele, the message they wish to convey, how to execute a plan
          and developed a beautiful and functional websites that increase their business successfully.
+        I love to Work Cross-Functionally.
         </p>
     </div>
     <div className="col-sm-1">

@@ -23,13 +23,13 @@ window.addEventListener("scroll",chHeader);
         <div className="container nav-tab" >
           <ul className="navbar-nav" >
             <li className="nav-item" >
-              <a className="nav-link " href="#about-skamirul">About</a>
+              <a className="nav-link " href="/#about-skamirul">About</a>
             </li>
            <li className="nav-item">
-              <a className="nav-link" href="#letest-work-of-skamirul" >Work</a>
+              <a className="nav-link" href="/#letest-work-of-skamirul" >Work</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact-to-skamirul" >Contact</a>
+              <a className="nav-link" href="/#contact-to-skamirul" >Contact</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#" >Blog</a>

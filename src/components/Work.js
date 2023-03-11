@@ -7,7 +7,7 @@ function Work(){
         <h4 className="heading" >   &#10094;  &nbsp; <span className="heading-span">My Letest Work </span> &nbsp; &#10095; </h4>
         <div className="col-sm-4 work-div">
             <div className="card work-card" >
-            <img className="" src="Magic Job.png" alt="Card image" />
+            <img className="" src="project-img/Magic Job.png" alt="project-pic" />
             <div className="card-body">
                 <h4 className="card-title">John Doe</h4>
                 <p className="card-text">Some example text.</p>
@@ -17,7 +17,7 @@ function Work(){
         </div>
         <div className="col-sm-4 work-div" >
             <div className="card work-card" >
-            <img className="" src="Magic Job.png" alt="Card image" />
+            <img className="" src="project-img/skamirul-snehainter.png" alt="project-pic" />
             <div className="card-body">
                 <h4 className="card-title">John Doe</h4>
                 <p className="card-text">Some example text.</p>
@@ -27,7 +27,7 @@ function Work(){
         </div>
         <div className="col-sm-4 work-div" >
             <div className="card work-card" >
-            <img className="" src="Magic Job.png" alt="Card image" />
+            <img className="" src="project-img/Magic Job.png" alt="project-pic" />
             <div className="card-body">
                 <h4 className="card-title">John Doe</h4>
                 <p className="card-text">Some example text.</p>

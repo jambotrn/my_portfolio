@@ -1,6 +1,6 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Contact from "../components/Contact";
+import Header from "./Header";
+import Footer from "./Footer";
+import Contact from "./Contact";
 
 function Workdetail(){
 

@@ -17,17 +17,17 @@ function Work(){
         </div>
         <div className="col-sm-4 work-div" >
             <div className="card work-card" >
-            <img className="" src="project-img/skamirul-snehainter.png" alt="project-pic" />
+            <img className="" src="project-img/skamirul-codingblog-project-img.png" alt="project-pic" />
             <div className="card-body">
                 <h4 className="card-title">John Doe</h4>
                 <p className="card-text">Some example text.</p>
-                <a href="workpage" className="btn btn-primary">See Profile</a>
+                <a href="coding-blog" className="btn btn-primary">See Profile</a>
             </div>
             </div>
         </div>
         <div className="col-sm-4 work-div" >
             <div className="card work-card" >
-            <img className="" src="project-img/Magic Job.png" alt="project-pic" />
+            <img className="" src="project-img/skamirul-snehainter.png" alt="project-pic" />
             <div className="card-body">
                 <h4 className="card-title">John Doe</h4>
                 <p className="card-text">Some example text.</p>

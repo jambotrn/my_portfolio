@@ -96,12 +96,12 @@ background-color: #141f2b;
 background-color: black;
 }
 .work-card img{
-opacity: .3;
+opacity: .8;
 height: 300px;
 }
 
 .work-card img:hover {
-opacity: .7;
+opacity: 1;
 }
 
 /* contact */

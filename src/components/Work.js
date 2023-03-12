@@ -9,9 +9,9 @@ function Work(){
             <div className="card work-card" >
             <img className="" src="project-img/Magic Job.png" alt="project-pic" />
             <div className="card-body">
-                <h4 className="card-title">John Doe</h4>
-                <p className="card-text">Some example text.</p>
-                <a href="magic-job" className="btn btn-primary">See Profile</a>
+                <h4 className="card-title">Magic Job</h4>
+                <p className="card-text">An online job portal website</p>
+                <a href="magic-job" className="btn btn-primary">See Portfolio</a>
             </div>
             </div>
         </div>
@@ -19,9 +19,9 @@ function Work(){
             <div className="card work-card" >
             <img className="" src="project-img/skamirul-codingblog-project-img.png" alt="project-pic" />
             <div className="card-body">
-                <h4 className="card-title">John Doe</h4>
-                <p className="card-text">Some example text.</p>
-                <a href="coding-blog" className="btn btn-primary">See Profile</a>
+                <h4 className="card-title">Coding Blog</h4>
+                <p className="card-text">A Computer Programe Bloging website</p>
+                <a href="coding-blog" className="btn btn-primary">See Portfolio</a>
             </div>
             </div>
         </div>
@@ -29,9 +29,9 @@ function Work(){
             <div className="card work-card" >
             <img className="" src="project-img/skamirul-snehainter.png" alt="project-pic" />
             <div className="card-body">
-                <h4 className="card-title">John Doe</h4>
-                <p className="card-text">Some example text.</p>
-                <a href="workpage" className="btn btn-primary">See Profile</a>
+                <h4 className="card-title">Sneha Intercontinental</h4>
+                <p className="card-text">Ecommarce website</p>
+                <a href="workpage" className="btn btn-primary">See Portfolio</a>
             </div>
             </div>
         </div>

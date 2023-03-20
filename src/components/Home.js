@@ -1,10 +1,11 @@
 
+import {lazy, Suspense} from 'react';
 import Header from '../components/Header';
-import Footer from '../components/Footer'
-import About from '../components/About'
-import Skill from '../components/Skill'
-import Work from '../components/Work'
-import Contact from '../components/Contact';
+const Footer = lazy(()=> import( '../components/Footer'))
+const About = lazy(()=> import( '../components/About'))
+const Skill = lazy(()=> import( '../components/Skill'))
+const Work = lazy(()=> import('../components/Work'))
+const Contact = lazy(()=> import( '../components/Contact'));
 
 
 
@@ -15,10 +16,13 @@ import Contact from '../components/Contact';
     <>
         < Header />
         <About />
-        < Skill />
-        < Work />
-        < Contact />
-        < Footer />
+        <Suspense fallback={<div>Loading...</div>}>
+                
+            < Skill />
+            < Work />
+            < Contact />
+            < Footer />
+        </Suspense>
      </>
 
     )

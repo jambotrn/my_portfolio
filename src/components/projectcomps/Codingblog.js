@@ -1,6 +1,8 @@
+import React, {lazy, Suspense} from 'react';
+
 import Header from "../Header";
-import Footer from "../Footer";
-import Contact from "../Contact";
+const Footer= lazy(()=> import( "../Footer"))
+const Contact= lazy(()=> import( "../Contact"))
 
 function Workdetail(){
 
@@ -9,7 +11,7 @@ function Workdetail(){
         <Header />
             <div className="container work-con">
                 <h1 className="heading-span">Coding Blog</h1>
-                <h3>A Computer Programe Bloging website</h3><br></br><br></br>
+                <h3>A Computer Programme Bloging website</h3><br></br><br></br>
                 <div className="row">
                     <div className="col-sm-12">
                         <img className="img-fluid work-img" src="project-img/skamirul-codingblog-project-img.png" alt="magic job "></img>
@@ -57,9 +59,10 @@ function Workdetail(){
                 
 
             </div>
-
+     <Suspense fallback={'loding...'}>
         <Contact />
         <Footer />
+    </Suspense>
         </>
     );
 

@@ -34,7 +34,7 @@ function About(){
     <div className="col-sm-1">
     </div>
     <div className="col-sm-4" >
-      <img className="profile-img" src="./sk_amirul.png"  alt="profile img"/>
+      <img className="profile-img" src="./skamirul-profile-removebg(1).png"  alt="profile img"/>
     </div>
   </div> 
   </div>

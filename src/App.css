@@ -38,14 +38,21 @@ body{
 }
 .profile-img{
   height: 250px;
-  width: 150px
+  width: 200px;
+  border: 2px solid;
+  box-shadow: 7px 7px  #e7e9eb;
 }
+.profile-img:hover {
+  border: 1px solid;
+  box-shadow: 8px 8px  #b4dd7f;
+  }
+  
 .about-cont{
   margin: 150px auto;
 }
 .about-img{
   height: 350px ;
-   width: 300px
+   width: 300px;
 }
 .about-col{
   margin: 100px 0px;

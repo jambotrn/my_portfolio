@@ -1,5 +1,4 @@
 
-
 body{
   background-color: #282c34;
   color: #8892b0;
@@ -14,7 +13,9 @@ body{
   color: #69d6f4;
   padding-left: 5rem;
 }
-
+.custom-toggler .navbar-toggler{
+  border-color: aqua;
+}
 .no-bullets{
   list-style-type: none;
   margin: 0;
@@ -99,6 +100,7 @@ padding: 0px;
 margin: 15px;
 background-color: #141f2b;
 }
+
 .work-card{
 background-color: black;
 }
@@ -212,4 +214,54 @@ color: aqua
 }
 .footer p:hover{
   color:#b4dd7f;
+}
+
+@media only screen and (max-width: 600px)  {
+  /* For mobile phones: */
+  .work-div {
+    width: 100%;
+    margin:5px;
+  }
+  .skill-row {
+    margin: 0px;
+  }
+  .about-me {
+    margin: auto;
+  }
+  .work-r {
+    padding: 10px 20px;
+  }
+  .work-cont {
+    margin: 150px auto;
+      margin-bottom: 100px;
+    background: none;
+    
+  }
+  .work-card{
+    background-color: none;
+    }
+    .work-card img {
+      height: 150px;
+    }
+    .contact-r {
+      padding: 10px;
+
+    }
+    .contact {
+      margin-left: 0px;
+    }
+    .col-mar {
+      margin: 20px auto;
+    }
+    .navbar-brand {
+      margin-left: 0px;
+    }
+    .about-img {
+      height: 200px;
+      width: 150px;
+    }
+    .profile-img {
+      height: 150px;
+      width: 100px;
+    }
 }

@@ -10,18 +10,23 @@ const chHeader = ()=>{
   setScroll(false)
  }
 }
+const normalNav='navbar navbar-expand-sm  navbar-dark';
+const stickyNav=normalNav +' sticky-top';
 window.addEventListener("scroll",chHeader);
 
     return(
-        <nav className={scroll ? 'navbar navbar-expand-sm sticky-top' : 'navbar navbar-expand-sm '} >
+        <nav className={scroll ? stickyNav : normalNav} >
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img src="/skamirul-webdeveloper.png" alt="Avatar Logo" 
             style={{width:100 + 'px'}} className="rounded-pill" /> 
           </a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span className="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <div className="container nav-tab" >
-          <ul className="navbar-nav" >
+        <div className=" nav-tab collapse navbar-collapse" id="mynavbar" >
+          <ul className="navbar-nav " >
             <li className="nav-item" >
               <a className="nav-link " href="/#about-skamirul">About</a>
             </li>

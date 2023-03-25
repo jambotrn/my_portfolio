@@ -256,12 +256,22 @@ color: aqua
     .navbar-brand {
       margin-left: 0px;
     }
-    .about-img {
+    /* .about-img {
       height: 200px;
       width: 150px;
-    }
+    } */
     .profile-img {
       height: 150px;
       width: 100px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .about-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 200px;
+      width: 50%;
     }
 }

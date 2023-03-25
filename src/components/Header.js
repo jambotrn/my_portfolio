@@ -12,6 +12,7 @@ const chHeader = ()=>{
 }
 const normalNav='navbar navbar-expand-sm  navbar-dark';
 const stickyNav=normalNav +' sticky-top';
+
 window.addEventListener("scroll",chHeader);
 
     return(

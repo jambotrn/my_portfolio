@@ -23,9 +23,9 @@ function App() {
         <Suspense fallback={'loding...'}>
         <Routes>
 
-          <Route path="/mywork" element={ <Workpage />} />
-          <Route path="/magic-job" element={ <Magicjob />} />
-          <Route path="/coding-blog" element={ <Codingblog />} />
+          <Route path="/projects" element={ <Workpage />} />
+          <Route path="projects/magic-job" element={ <Magicjob />} />
+          <Route path="projects/coding-blog" element={ <Codingblog />} />
       </Routes>
 
         </Suspense>

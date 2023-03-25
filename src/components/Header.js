@@ -28,6 +28,9 @@ window.addEventListener("scroll",chHeader);
         </div>
         <div className=" nav-tab collapse navbar-collapse" id="mynavbar" >
           <ul className="navbar-nav " >
+          <li className="nav-item">
+              <a className="nav-link" href="/" >Home</a>
+            </li>
             <li className="nav-item" >
               <a className="nav-link " href="/#about-skamirul">About</a>
             </li>
@@ -37,9 +40,7 @@ window.addEventListener("scroll",chHeader);
             <li className="nav-item">
               <a className="nav-link" href="/#contact-to-skamirul" >Contact</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#" >Blog</a>
-            </li>
+
             <li className="nav-item">
               <a className="nav-link disabled" href="#" ></a>
             </li>

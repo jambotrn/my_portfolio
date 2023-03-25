@@ -14,7 +14,7 @@ function Workdetail(){
                 <h3>A Computer Programme Bloging website</h3><br></br><br></br>
                 <div className="row">
                     <div className="col-sm-12">
-                        <img className="img-fluid work-img" src="project-img/skamirul-codingblog-project-img.png" alt="magic job "></img>
+                        <img className="img-fluid work-img" src="/project-img/skamirul-codingblog-project-img.png" alt="magic job "></img>
                     </div>
                 </div>
                 <div className="row">
@@ -55,6 +55,11 @@ function Workdetail(){
                            <li> Blogs are listed beautifully using bootstarp card element. </li>
                         </ol>
                     </div>
+                    <h5 style={{paddingTop:20+"px"}}>
+                        <a className="btn btn-outline-info" href="https://github.com/jambotrn/django_coding_blog_project" target="_blank">
+                            View Magic Job
+                        </a>
+                    </h5>
                 </div>
                 
 

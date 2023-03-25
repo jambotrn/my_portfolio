@@ -19,7 +19,7 @@ function Work(){
             <div className="card-body">
                 <h4 className="card-title">Magic Job</h4>
                 <p className="card-text">An online job portal website</p>
-                <a href="magic-job" className="btn btn-primary">See Portfolio</a>
+                <a href="projects/magic-job" className="btn btn-primary">See Portfolio</a>
             </div>
             </div>
         </div>
@@ -34,7 +34,7 @@ function Work(){
             <div className="card-body">
                 <h4 className="card-title">Coding Blog</h4>
                 <p className="card-text">A Computer Programe Bloging website</p>
-                <a href="coding-blog" className="btn btn-primary">See Portfolio</a>
+                <a href="projects/coding-blog" className="btn btn-primary">See Portfolio</a>
             </div>
             </div>
         </div>
@@ -48,7 +48,7 @@ function Work(){
             <div className="card-body">
                 <h4 className="card-title">Sneha Intercontinental</h4>
                 <p className="card-text">Ecommarce website</p>
-                <a href="workpage" className="btn btn-primary">See Portfolio</a>
+                <a href="project/sneha-intercontinental" className="btn btn-primary">See Portfolio</a>
             </div>
             </div>
         </div>

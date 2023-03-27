@@ -1,5 +1,5 @@
 import React, {lazy, Suspense} from 'react';
-
+import {Helmet} from 'react-helmet-async';
 import Header from "../Header";
 const Footer= lazy(()=> import( "../Footer"))
 const Contact= lazy(()=> import( "../Contact"))
@@ -8,6 +8,14 @@ function Workdetail(){
 
     return(
         <>
+        <Helmet>
+            <title>Sk Amirul | Full stack web development project Coding Blog </title>
+            <meta name="description" content='Coding Blog website lets you easily create SEO friendly coding articals that can appear on google search result easily.
+             Django built in admin panel give you full controll over articals post, user authentication, 
+             user authorizations, articals author, comments, articals category, articals tags'/>
+            <meta name="keywords" content="Full stack web development, responsive web pages, SEO friendly, Advance search functionality, python , django, Mysql" />
+            <link rel="canonical" href="/projects/coding-blog"/>
+        </Helmet>
         <Header />
             <div className="container work-con">
                 <h1 className="heading-span">Coding Blog</h1>

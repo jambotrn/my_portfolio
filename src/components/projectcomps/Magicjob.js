@@ -1,11 +1,23 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import Contact from "../Contact";
+import {Helmet} from 'react-helmet-async';
 
 function Workdetail(){
 
     return(
         <>
+        <Helmet>
+            <title>Sk Amirul | Full stack web development project Magic Job </title>
+            <meta name="description" content='Fully responsive web pages.
+  All the public pages are super SEO friendly.
+  Advance search functionality.
+  user registration with email verification.
+  Auto job notification.
+  Career and job related bloging.'/>
+            <meta name="keywords" content="Full stack web development, responsive web pages, SEO friendly, Advance search functionality, Php / Laravel, Mysql" />
+            <link rel="canonical" href="/projects/magic-job"/>
+        </Helmet>
         <Header />
             <div className="container work-con">
                 <h1 className="heading-span">Magic Job</h1>
